@@ -48,5 +48,5 @@ WEIGHT_EDGES = (0.05, 0.35, 0.65, 1.0)   # signal-fraction groups for n_c >= 2
 EXAMPLE_SNR = 40                         # ladder rung of the example spectra (Fig. 1)
 EXAMPLE_NCOMP = (2, 3, 4)
 SPECTRA_AXES = "log"                     # "log" or "linear" for Fig. 1
-METHODS = {"nnls": "NNLS", "diffusion": "DETR (diffusion design)", "ours": "DETR (ours)"}
+METHODS = {"nnls": "NNLS", "diffusion": "DETR (diff)", "ours": "DETR (ours)"}
 COLORS = {"nnls": "#E37222", "diffusion": "#A2AD00", "ours": "#0065BD"}
