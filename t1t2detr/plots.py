@@ -12,7 +12,7 @@ from t1t2detr.metrics import r2
 CMAP_W = plt.get_cmap("plasma")          # signal fraction in scatter plots (as in the diffusion DETR)
 
 plt.rcParams.update({"font.size": 8, "axes.titlesize": 8, "axes.labelsize": 8, "legend.fontsize": 7,
-                     "xtick.labelsize": 7, "ytick.labelsize": 7})
+                     "xtick.labelsize": 7, "ytick.labelsize": 7, "pdf.fonttype": 42, "ps.fonttype": 42})
 
 
 def _save(fig, path):
